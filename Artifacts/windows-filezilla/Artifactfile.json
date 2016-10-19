@@ -5,8 +5,8 @@
     "description": "Installs FileZilla using the Chocolatey package manager",
     "tags": [
         "Windows",
-        "TortoiseHg",
-        "Hg"
+        "FileZilla",
+        "FTP"
     ],
     "iconUri": "https://raw.githubusercontent.com/ferventcoder/chocolatey-packages/master/icons/filezilla.svg",
     "targetOsType": "Windows",
