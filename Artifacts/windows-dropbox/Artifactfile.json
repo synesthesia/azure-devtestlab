@@ -1,0 +1,15 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Azure/azure-devtestlab/master/schemas/2015-01-01/dtlArtifacts.json",
+    "title": "TortoiseHG",
+    "publisher": "synesthesia",
+    "description": "Installs DropBox using the Chocolatey package manager",
+    "tags": [
+        "Windows",
+        "DropBox"
+    ],
+    "iconUri": "https://cdn.rawgit.com/chocolatey/chocolatey-coreteampackages/e4a49519947c3cff55c17a0b08266c56b0613e64/icons/dropbox.svg",
+    "targetOsType": "Windows",
+    "runCommand": {
+        "commandToExecute": "[concat('powershell.exe -ExecutionPolicy bypass \"& ./startChocolatey.ps1 -PackageList ', 'dropbox', '\"')]"
+    }
+}
