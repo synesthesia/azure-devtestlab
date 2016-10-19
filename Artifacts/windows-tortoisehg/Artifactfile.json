@@ -8,7 +8,7 @@
         "TortoiseHg",
         "Hg"
     ],
-    "iconUri": "https://cdn.rawgit.com/chocolatey/chocolatey-coreteampackages/e4a49519947c3cff55c17a0b08266c56b0613e64/icons/tortoishg.svg",
+    "iconUri": "https://chocolatey.org/content/packageimages/tortoisehg.3.9.svg",
     "targetOsType": "Windows",
     "runCommand": {
         "commandToExecute": "[concat('powershell.exe -ExecutionPolicy bypass \"& ./startChocolatey.ps1 -PackageList ', 'tortoisehg', '\"')]"
